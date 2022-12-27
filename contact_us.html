@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <!-- <link rel="stylesheet" href="external_css.css"> -->
+     
+        <style>
+         .body{
+                 margin: 0;
+                 background-color: wheat;
+         }
+         h1,h2,.to{
+             color: #11cdd4;
+             font-family: sans-serif;
+         }
+         hr{
+            border: dotted #70bebe 6px;
+            border-bottom: none;
+            width: 4%;
+            margin: 0 auto 100px auto;
+        }
+        .form {
+            padding: 70px ;
+            margin: 40px ;
+            height: auto;
+            width: 50%;
+        
+            background-color: skyblue;
+            color: blue;  
+        }
+        input{
+            position: absolute;
+            left: 18%;
+        }
+
+        .button{
+            margin: 10px;
+        }
+        .return{
+          margin: 40px 20px;
+          display: block;
+          position: absolute;
+          right: 10%;
+       }  
+        .button , .footer-link ,.return{
+            background: #11cdd4;
+            background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+            background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+            background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+            background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+            background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+            -webkit-border-radius: 8;
+            -moz-border-radius: 8;
+            border-radius: 8px;
+            font-family: 'Montserrat' , sans-serif;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+        }
+        
+        .button:hover , .footer-link:hover , .return:hover {
+            background: #30e3cb;
+            background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+            background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+            background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+            background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+            background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+            text-decoration: none;
+        }
+
+        .bottom-container{
+        margin: 0px;
+        padding: 50px 0px 20px;
+        background-color: #66bfbf;
+        }
+        .footer-link{
+        position:relative;
+        left: 30%;
+        text-align: center;
+        margin-left: 20px;
+        padding: 10px;
+        display: inline;
+        text-decoration: none;
+        }
+        .copyright{
+            /* display: inline; */
+        color: #eaf6f6;
+        position: relative;
+        text-align: center;   
+        font-size: 0.98rem; 
+        padding: 20px 0 10px 0;
+    }
+
+        </style>
+    </head>
+    <body >
+
+    <table  cellspacing="50px" style="font-family: fantasy;">
+            <tr>
+                <td ><img class="profile" src="gauravinsta (1).png" alt="profile Picture" width="200" height="200"></td>
+                <td class="header"><h1>SUBMIT YOUR FORM  </h1>
+                    <p class="to">TO</p>
+                    <h2>Ⓖ GAURAV SINGH  </h2>
+                </td>
+                <td>
+                    <a class="return" href="index.html">Back to Home page</a>
+                </td>
+            </tr>
+    </table><br>
+
+    <hr>
+
+<span >
+    <h2 >FILL THE FORM : </h2>
+</span>
+    
+
+    <form  class="form" action="mailto:gauravsingh264209@gmail.com" method="post" enctype="text/plain">
+        <div  >
+            <label for="Roll Number">ROLL NO. :</label>
+            <input type="text"  name="Roll No." id="roll">
+        </div><br>
+        <div >
+            <label for="Name">YOUR NAME :</label>
+            <input type="text" name="Name" id="name" value="" required>
+        </div><br>
+        <div class="input">
+            <label for="Father's name">FATHER'S NAME :</label>
+            <input type="text" name="Father's name" id="fname" >
+        </div><br>
+    
+        <div>
+            <label for="contact">PHONE NO. :</label>
+            <input type="tel" name="Phone" id="phone"  value="+91">
+        </div><br>
+        <div >
+            <label for="email">E-MAIL :</label>
+            <input type="email" name="Email" id="email" value=" ">
+        </div><br>
+        <div >
+            <label for="message" >YOUR MESSAGE : </label><br>
+            <textarea name="MESSAGE" id="message" cols="30" rows="10"></textarea>
+        
+        </div><br>
+
+
+<!-- <datalist> Tag  - List of prdefined options for an <input> element , user will see a drop down list as they input data . -->
+          <div>
+              <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> How much you were impressed by our page</p>
+               <input list="user-view" name="user point of view">
+               <datalist id="feedback">
+                   <option value="fine">Fine</option>
+                   <option value="Good">Good</option>
+                   <option value="Excellent"Excellent</option>
+               </datalist>
+               
+          </div><br>
+
+
+          <input class="button" itemid="11" type="submit" name="Submitted" id="submit" value="submit form ">
+         
+    </form>
+    
+    <div class="bottom-container">
+        <h2 style="color: white; text-align: center; margin-top: -1.5rem;">CONTACT US</h2>  
+
+        <a class="footer-link" href="https://www.linkedin.com/in/gaurav-singh-722660228">LinkedIn</a>
+        <a class="footer-link" href="mailto:gauravsingh264209@gmail.com">E-mail</a>
+        <a class="footer-link" href="https://www.facebook.com/gauravsingh.kashyap.353/">facebook</a>
+        <a class="footer-link" href="https://www.instagram.com/gauravsinghkashyap45/">Instagram</a>
+        <p class="copyright">© Gaurav Singh</p>
+      </div>
+
+    </body>
+</html>
