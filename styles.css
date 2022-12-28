@@ -19,8 +19,9 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding:.2rem;
+    padding:5px;
     text-decoration: none;
+    overflow: hidden;
     }
 
     li a:hover:not(.active) {
