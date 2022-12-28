@@ -159,13 +159,7 @@ div.mid{
     padding: 50px 0px 20px;
    background-color: #66bfbf;
 }
-.footer-link{
-    text-align: center;
-    margin-left: 20px;
-    padding: 25px;
-    display: inline;
-    text-decoration: none;
-}
+
 .copyright{
     /* display: inline; */
     color: #eaf6f6;
@@ -213,3 +207,14 @@ div.mid{
     text-decoration: none;
   }
 
+  .footer-link{
+    position: relative;
+    text-align: center;
+    width: auto;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding:0px;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    }
