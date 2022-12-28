@@ -210,9 +210,9 @@ div.mid{
   .footer-link{
     position: relative;
     text-align: center;
-    width: auto;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    width: 10rem;
+    margin-left:auto;
+    margin-right: auto;
     padding:0px;
     display: block;
     margin-top: 10px;
