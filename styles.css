@@ -12,13 +12,14 @@ ul {
 
     li {
     float: left;
+    font-size:auto;
     }
 
     li a {
     display: block;
     color: white;
     text-align: center;
-    padding-left:0.15rem;
+    padding:.2rem;
     text-decoration: none;
     }
 
@@ -81,7 +82,7 @@ body{
     font-size: 2.2rem;
 }
 .cloud{
-    margin-top: 5.4rem;
+    margin-top: 8rem;
     width: 100%;
     height: 200px;
     padding: 0;
