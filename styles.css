@@ -94,13 +94,13 @@ body{
     position: absolute;
     left: 10%;
 }
-.cloud2{
+/* .cloud2{
     
     width: 250px;
     height: 200px;
     position: absolute;
     left: 60%;
-}
+} */
 hr{
     border: dotted #70bebe 6px;
     border-bottom: none;
